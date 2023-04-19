@@ -8,9 +8,7 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install-client": "cd client && npm install",
     "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run install-client && npm run build",
-    "client": "cd client && npm start"
+    "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
