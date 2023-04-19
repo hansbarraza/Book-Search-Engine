@@ -1,5 +1,6 @@
 const { gql } = require('apollo-server-express');
 
+// typeDefs set the types that can be used by client
 const typeDefs = gql`
     
     input savedBook {
