@@ -3,8 +3,8 @@
 ## Description
 My Book Library is a web application that allows users to save and manage their favorite books. It provides a user-friendly interface for users to view, add, and remove books from their library. The application is built using React, Apollo Client, GraphQL, and MongoDB.
 
-![App screenshot](./assets/images/book-search2.png)
-![App screenshot](./assets/images/book-search.png)
+![App screenshot](./assets/images/Screenshot.png)
+![App screenshot](./assets/images/Screenshot2.png)
 
 ## Usage
 
