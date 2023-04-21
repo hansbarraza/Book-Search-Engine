@@ -29,12 +29,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/'));
 });
 
-// app.use(express.static('public'));
-
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "../client/build/index.html"));
-// });
-
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });
